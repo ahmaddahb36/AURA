@@ -2,116 +2,200 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>Aura | الصفحة الرئيسية</title>
+  <title>Aura - منظمة تعليمية | التجارة الإلكترونية والتسويق الرقمي والتداول</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f5f0e6;
-      color: #1a1a1a;
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Aura منظمة تعليمية غير ربحية تقدم تعليم مجاني في التجارة الإلكترونية، التسويق الرقمي، والتداول المالي. نحدث التغيير بالمعرفة والعمل في العالم العربي.">
+  <meta name="keywords" content="Aura, أورا, تعليم مجاني, التجارة الإلكترونية, التسويق الرقمي, تداول الأسهم, أمازون, إيباي, منظمة غير ربحية, التعليم العربي, كورسات مجانية">
+  <meta name="author" content="Aura Organization">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Arabic">
+  <meta name="revisit-after" content="7 days">
+  <meta name="google-site-verification" content="[YOUR_GOOGLE_VERIFICATION_CODE]">
+  <meta name="msvalidate.01" content="[YOUR_BING_VERIFICATION_CODE]">
+  <meta name="yandex-verification" content="[YOUR_YANDEX_VERIFICATION_CODE]">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Aura - منظمة تعليمية | التجارة الإلكترونية والتسويق الرقمي والتداول">
+  <meta property="og:description" content="منظمة تعليمية غير ربحية تقدم تعليم مجاني في التجارة الإلكترونية، التسويق الرقمي، والتداول المالي للشباب العربي">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ahmaddahb36.github.io/AURA/">
+  <meta property="og:image" content="https://ahmaddahb36.github.io/AURA/images/aura-logo.png">
+  <meta property="og:site_name" content="Aura Organization">
+  <meta property="og:locale" content="ar_AR">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aura - منظمة تعليمية | التجارة الإلكترونية والتسويق الرقمي والتداول">
+  <meta name="twitter:description" content="منظمة تعليمية غير ربحية تقدم تعليم مجاني في التجارة الإلكترونية، التسويق الرقمي، والتداول المالي">
+  <meta name="twitter:image" content="https://ahmaddahb36.github.io/AURA/images/aura-logo.png">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://ahmaddahb36.github.io/AURA/">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" title="Aura - منظمة تعليمية RSS Feed" href="feed.xml">
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Aura",
+    "alternateName": "أورا",
+    "url": "https://ahmaddahb36.github.io/AURA/",
+    "logo": "https://ahmaddahb36.github.io/AURA/images/aura-logo.png",
+    "description": "منظمة تعليمية غير ربحية تقدم تعليم مجاني في التجارة الإلكترونية، التسويق الرقمي، والتداول المالي",
+    "foundingDate": "2024",
+    "areaServed": {
+      "@type": "Place",
+      "name": "العالم العربي"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "JO",
+      "addressRegion": "عمان",
+      "addressLocality": "الأردن"
+    },
+    "knowsAbout": ["التجارة الإلكترونية", "التسويق الرقمي", "التداول المالي", "أمازون", "إيباي", "Amazon FBA", "Dropshipping"],
+    "sameAs": [
+      "https://t.me/AURA11319",
+      "https://wa.me/962780286715",
+      "https://www.instagram.com/a7mad_awawdeh"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+962780286715",
+      "contactType": "customer service",
+      "availableLanguage": ["Arabic", "العربية"],
+      "areaServed": "العالم العربي"
+    },
+    "offers": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "كورس التجارة الإلكترونية المجاني",
+        "description": "تعليم مجاني شامل للتجارة الإلكترونية وأمازون FBA",
+        "educationalCredentialAwarded": "شهادة مجانية",
+        "provider": {
+          "@type": "Organization",
+          "name": "Aura"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential", 
+        "name": "كورس التسويق الرقمي المجاني",
+        "description": "تعليم استراتيجيات التسويق الرقمي وإدارة المحتوى",
+        "educationalCredentialAwarded": "شهادة مجانية",
+        "provider": {
+          "@type": "Organization",
+          "name": "Aura"
+        }
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "خدمات Aura التعليمية",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "التسويق الرقمي",
+            "description": "خدمات التسويق الرقمي وإدارة الحسابات"
+          }
+        },
+        {
+          "@type": "Offer", 
+          "itemOffered": {
+            "@type": "Service",
+            "name": "التجارة الإلكترونية",
+            "description": "تعليم البيع على أمازون وإنشاء المتاجر الإلكترونية"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service", 
+            "name": "التداول المالي",
+            "description": "تعليم تداول الأسهم والتحليل الفني"
+          }
+        }
+      ]
     }
-    header {
-      background-color: #0077b6;
-      color: white;
-      padding: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+  }
+  </script>
+  
+  <!-- Website Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Aura - منظمة تعليمية",
+    "url": "https://ahmaddahb36.github.io/AURA/",
+    "description": "موقع منظمة Aura التعليمية للتجارة الإلكترونية والتسويق الرقمي والتداول المالي",
+    "inLanguage": "ar",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://ahmaddahb36.github.io/AURA/?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aura",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ahmaddahb36.github.io/AURA/images/aura-logo.png"
+      }
     }
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .hero {
-      background-image: url('images/hero-bg.jpg');
-      background-size: cover;
-      background-position: center;
-      color: #fff;
-      padding: 80px 20px;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    .section {
-      padding: 40px 20px;
-      border-bottom: 1px solid #ccc;
-    }
-    .section h2 {
-      color: #0077b6;
-    }
-    .section img {
-      width: 100%;
-      max-width: 600px;
-      margin: 15px auto;
-      display: block;
-      border-radius: 8px;
-    }
-    .cta {
-      text-align: center;
-      padding: 30px;
-    }
-    .cta a {
-      background-color: #0077b6;
-      color: white;
-      padding: 12px 24px;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-      margin: 10px;
-      display: inline-block;
-    }
-    footer {
-      background-color: #1a1a1a;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-  </style>
+  }
+  </script>
 </head>
 <body>
 
 <header>
-  <img src="images/aura-logo.png" alt="Aura Logo" height="40">
+  <img src="images/aura-logo.png" alt="Aura - منظمة تعليمية غير ربحية للتجارة الإلكترونية والتسويق الرقمي" height="40" width="160" loading="eager" decoding="async">
   <nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="about.html">من نحن</a>
-    <a href="services.html">الخدمات</a>
-    <a href="contact.html">تواصل معنا</a>
+    <a href="index.html" aria-label="الصفحة الرئيسية">الرئيسية</a>
+    <a href="about.html" aria-label="معلومات عن منظمة Aura">من نحن</a>
+    <a href="services.html" aria-label="خدمات التجارة الإلكترونية والتسويق الرقمي">الخدمات</a>
+    <a href="contact.html" aria-label="تواصل مع فريق Aura">تواصل معنا</a>
   </nav>
 </header>
 
 <section class="hero">
-  <h1>نُحدث التغيير بالمعرفة والعمل</h1>
-  <p>Aura هي منظمة تعليمية غير ربحية تقدم حلولًا رقمية في التجارة الإلكترونية، التسويق الرقمي، والتداول الحقيقي.</p>
+  <h1>نُحدث التغيير بالمعرفة والعمل - منظمة Aura التعليمية</h1>
+  <p>Aura هي منظمة تعليمية غير ربحية تقدم حلولًا رقمية في التجارة الإلكترونية، التسويق الرقمي، والتداول الحقيقي. نقدم تعليم مجاني عالي الجودة للشباب العربي لتطوير مهاراتهم الرقمية.</p>
 </section>
 
 <section class="section">
   <h2>💼 التسويق الرقمي وإدارة المحتوى</h2>
-  <img src="images/marketing.jpg" alt="صورة التسويق الرقمي">
-  <p>نقدم خدمات احترافية في إدارة الحسابات، كتابة المحتوى، الحملات الإعلانية، وتعزيز الحضور الرقمي.</p>
+  <img src="images/marketing.jpg" alt="خدمات التسويق الرقمي والحملات الإعلانية من Aura" width="600" height="400" loading="lazy" decoding="async">
+  <p>نقدم خدمات احترافية في إدارة الحسابات، كتابة المحتوى، الحملات الإعلانية، وتعزيز الحضور الرقمي. تعلم كيفية بناء استراتيجية تسويق رقمي ناجحة وإدارة حسابات التواصل الاجتماعي بفعالية.</p>
 </section>
 
 <section class="section">
-  <h2>🛒 تعليم التجارة الإلكترونية</h2>
-  <img src="images/ecommerce.jpg" alt="صورة التجارة الإلكترونية">
-  <p>محتوى مجاني حول البيع عبر أمازون، إيباي، اختيار المنتجات، والتعامل مع الموردين.</p>
+  <h2>🛒 تعليم التجارة الإلكترونية والبيع على أمازون</h2>
+  <img src="images/ecommerce.jpg" alt="كورسات مجانية في التجارة الإلكترونية وأمازون FBA" width="600" height="400" loading="lazy" decoding="async">
+  <p>محتوى مجاني شامل حول البيع عبر أمازون، إيباي، اختيار المنتجات الرابحة، والتعامل مع الموردين. تعلم Amazon FBA، Dropshipping، وكيفية إنشاء متجر إلكتروني ناجح من الصفر.</p>
 </section>
 
 <section class="section">
-  <h2>📈 تداول الأسواق المالية</h2>
-  <img src="images/trading.jpg" alt="صورة التداول المالي">
-  <p>نشر ثقافة التداول الواعي، التحليل الفني والأساسي، وإدارة رأس المال.</p>
+  <h2>📈 تداول الأسواق المالية والتحليل الفني</h2>
+  <img src="images/trading.jpg" alt="تعليم تداول الأسهم والفوركس والتحليل الفني" width="600" height="400" loading="lazy" decoding="async">
+  <p>نشر ثقافة التداول الواعي، التحليل الفني والأساسي، وإدارة رأس المال. تعلم تداول الأسهم، الفوركس، والعملات الرقمية بطريقة احترافية وآمنة مع استراتيجيات مجربة.</p>
 </section>
 
 <section class="section">
   <h2>🎓 التعليم المجاني والوعي العربي</h2>
-  <img src="images/education.jpg" alt="صورة التعليم المجاني">
-  <p>نؤمن بأهمية الوصول للمعلومة باللغة العربية بأسلوب واقعي وتفاعلي يخدم الشباب في العالم العربي.</p>
+  <img src="images/education.jpg" alt="كورسات مجانية باللغة العربية في التجارة والتسويق" width="600" height="400" loading="lazy" decoding="async">
+  <p>نؤمن بأهمية الوصول للمعلومة باللغة العربية بأسلوب واقعي وتفاعلي يخدم الشباب في العالم العربي. جميع كورساتنا ومحتوانا التعليمي متاح مجاناً لجميع المتعلمين العرب.</p>
 </section>
 
 <section class="cta">

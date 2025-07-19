@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Important pages for indexing
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /contact.html
+
+# Allow images and assets
+Allow: /images/
+Allow: /styles.css
+Allow: /manifest.json
+
+# Block unnecessary files
+Disallow: /*.txt$
+Disallow: /README.md
+
+# Sitemap location
+Sitemap: https://ahmaddahb36.github.io/AURA/sitemap.xml
+
+# Crawl delay for better server performance
+Crawl-delay: 1
+
+# Cache directive for better crawling
+Cache-delay: 1
+
+# Additional directive for Arabic content
+Host: ahmaddahb36.github.io

@@ -1,0 +1,257 @@
+/* Aura Organization - Optimized CSS */
+
+/* Performance optimizations for Core Web Vitals */
+* {
+  box-sizing: border-box;
+}
+
+/* Critical rendering path optimization */
+html {
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f0e6;
+  color: #1a1a1a;
+  line-height: 1.6;
+  /* Improve LCP */
+  contain: layout style paint;
+}
+
+/* Optimize images for loading performance */
+img {
+  max-width: 100%;
+  height: auto;
+  /* Improve layout stability */
+  aspect-ratio: attr(width) / attr(height);
+}
+
+/* Header Styles */
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header img {
+  transition: transform 0.3s ease;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover, nav a:focus {
+  background-color: rgba(255,255,255,0.2);
+  outline: none;
+}
+
+/* Hero Section */
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: clamp(24px, 5vw, 36px);
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero p {
+  font-size: clamp(16px, 3vw, 18px);
+  max-width: 800px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Section Styles */
+.section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ddd;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section h1, .section h2 {
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.section h1 {
+  font-size: clamp(24px, 4vw, 32px);
+}
+
+.section h2 {
+  font-size: clamp(20px, 3.5vw, 28px);
+}
+
+.section p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.section img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 15px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.section img:hover {
+  transform: translateY(-5px);
+}
+
+/* CTA Section */
+.cta {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e8f4f8;
+}
+
+.cta a {
+  background-color: #0077b6;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 10px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.cta a:hover, .cta a:focus {
+  background-color: #005a8c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  outline: none;
+}
+
+/* Form Styles */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea, select {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #0077b6;
+  outline: none;
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover, button:focus {
+  background-color: #005a8c;
+  transform: translateY(-2px);
+  outline: none;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hero {
+    padding: 60px 15px;
+    background-attachment: scroll;
+  }
+  
+  .section {
+    padding: 30px 15px;
+  }
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Print Styles */
+@media print {
+  header, footer, .cta {
+    display: none;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .section {
+    border-bottom: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+}

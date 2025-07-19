@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Aura - منظمة تعليمية</title>
+    <description>منظمة تعليمية غير ربحية تقدم تعليم مجاني في التجارة الإلكترونية، التسويق الرقمي، والتداول المالي</description>
+    <link>https://ahmaddahb36.github.io/AURA/</link>
+    <atom:link href="https://ahmaddahb36.github.io/AURA/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>ar</language>
+    <lastBuildDate>Sat, 19 Jul 2025 12:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 19 Jul 2025 12:00:00 +0000</pubDate>
+    <ttl>1440</ttl>
+    <generator>Aura Organization</generator>
+    <managingEditor>info@aura-org.com (Aura Organization)</managingEditor>
+    <webMaster>info@aura-org.com (Aura Organization)</webMaster>
+    <copyright>© 2025 Aura Organization. جميع الحقوق محفوظة.</copyright>
+    <category>Education</category>
+    <category>Business</category>
+    <category>E-commerce</category>
+    <category>Digital Marketing</category>
+    <category>Trading</category>
+    
+    <item>
+      <title>خدمات التسويق الرقمي من Aura</title>
+      <description>نقدم خدمات احترافية في إدارة الحسابات، كتابة المحتوى، الحملات الإعلانية، وتعزيز الحضور الرقمي</description>
+      <link>https://ahmaddahb36.github.io/AURA/services.html</link>
+      <guid>https://ahmaddahb36.github.io/AURA/services.html#digital-marketing</guid>
+      <pubDate>Sat, 19 Jul 2025 12:00:00 +0000</pubDate>
+      <category>التسويق الرقمي</category>
+      <dc:creator>Aura Organization</dc:creator>
+    </item>
+    
+    <item>
+      <title>تعليم التجارة الإلكترونية والبيع على أمازون</title>
+      <description>محتوى مجاني شامل حول البيع عبر أمازون، إيباي، اختيار المنتجات الرابحة، والتعامل مع الموردين</description>
+      <link>https://ahmaddahb36.github.io/AURA/services.html</link>
+      <guid>https://ahmaddahb36.github.io/AURA/services.html#ecommerce</guid>
+      <pubDate>Sat, 19 Jul 2025 12:00:00 +0000</pubDate>
+      <category>التجارة الإلكترونية</category>
+      <dc:creator>Aura Organization</dc:creator>
+    </item>
+    
+    <item>
+      <title>تداول الأسواق المالية والتحليل الفني</title>
+      <description>نشر ثقافة التداول الواعي، التحليل الفني والأساسي، وإدارة رأس المال</description>
+      <link>https://ahmaddahb36.github.io/AURA/services.html</link>
+      <guid>https://ahmaddahb36.github.io/AURA/services.html#trading</guid>
+      <pubDate>Sat, 19 Jul 2025 12:00:00 +0000</pubDate>
+      <category>التداول المالي</category>
+      <dc:creator>Aura Organization</dc:creator>
+    </item>
+    
+  </channel>
+</rss>

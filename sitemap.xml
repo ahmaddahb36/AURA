@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Main Homepage -->
+  <url>
+    <loc>https://ahmaddahb36.github.io/AURA/</loc>
+    <lastmod>2025-07-19T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ahmaddahb36.github.io/AURA/images/hero-bg.jpg</image:loc>
+      <image:title>Aura Organization - منظمة تعليمية</image:title>
+      <image:caption>منظمة Aura للتعليم المجاني في التجارة الإلكترونية والتسويق الرقمي</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Index page (duplicate handling) -->
+  <url>
+    <loc>https://ahmaddahb36.github.io/AURA/index.html</loc>
+    <lastmod>2025-07-19T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Us Page -->
+  <url>
+    <loc>https://ahmaddahb36.github.io/AURA/about.html</loc>
+    <lastmod>2025-07-19T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ahmaddahb36.github.io/AURA/images/team.jpg</image:loc>
+      <image:title>فريق منظمة Aura</image:title>
+    </image:image>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://ahmaddahb36.github.io/AURA/services.html</loc>
+    <lastmod>2025-07-19T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ahmaddahb36.github.io/AURA/images/digital-services.jpg</image:loc>
+      <image:title>خدمات التسويق الرقمي من Aura</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://ahmaddahb36.github.io/AURA/contact.html</loc>
+    <lastmod>2025-07-19T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://ahmaddahb36.github.io/AURA/images/contact-form.jpg</image:loc>
+      <image:title>تواصل مع منظمة Aura</image:title>
+    </image:image>
+  </url>
+
+</urlset>

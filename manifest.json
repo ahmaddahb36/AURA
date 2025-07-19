@@ -1,0 +1,23 @@
+{
+  "name": "Aura - منظمة تعليمية",
+  "short_name": "Aura",
+  "description": "منظمة تعليمية غير ربحية تقدم تعليم مجاني في التجارة الإلكترونية والتسويق الرقمي والتداول المالي",
+  "start_url": "/AURA/",
+  "display": "standalone",
+  "background_color": "#f5f0e6",
+  "theme_color": "#0077b6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/aura-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["education", "business", "finance"],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
