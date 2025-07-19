@@ -7,12 +7,12 @@
 
   <!-- Main Homepage -->
   <url>
-    <loc>https://ahmaddahb36.github.io/AURA/index.html</loc>
+    <loc>https://aurajo.me/index.html</loc>
     <lastmod>2025-07-19T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://ahmaddahb36.github.io/AURA/images/hero-bg.jpg</image:loc>
+    <image:loc>https://aurajo.me/images/hero-bg.jpg</image:loc>
       <image:title>Aura Organization - منظمة تعليمية</image:title>
       <image:caption>منظمة Aura للتعليم المجاني في التجارة الإلكترونية والتسويق الرقمي</image:caption>
     </image:image>
@@ -20,36 +20,36 @@
 
   <!-- About Us Page -->
   <url>
-    <loc>https://ahmaddahb36.github.io/AURA/about.html</loc>
+    <loc>https://aurajo.me/about.html</loc>
     <lastmod>2025-07-19T12:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://ahmaddahb36.github.io/AURA/images/team.jpg</image:loc>
+    <image:loc>https://aurajo.me/images/team.jpg</image:loc>
       <image:title>فريق منظمة Aura</image:title>
     </image:image>
   </url>
 
   <!-- Services Page -->
   <url>
-    <loc>https://ahmaddahb36.github.io/AURA/services.html</loc>
+    <loc>https://aurajo.me/services.html</loc>
     <lastmod>2025-07-19T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://ahmaddahb36.github.io/AURA/images/digital-services.jpg</image:loc>
+    <image:loc>https://aurajo.me/images/digital-services.jpg</image:loc>
       <image:title>خدمات التسويق الرقمي من Aura</image:title>
     </image:image>
   </url>
 
   <!-- Contact Page -->
   <url>
-    <loc>https://ahmaddahb36.github.io/AURA/contact.html</loc>
+    <loc>https://aurajo.me/contact.html</loc>
     <lastmod>2025-07-19T12:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://ahmaddahb36.github.io/AURA/images/contact-form.jpg</image:loc>
+    <image:loc>https://aurajo.me/images/contact-form.jpg</image:loc>
       <image:title>تواصل مع منظمة Aura</image:title>
     </image:image>
   </url>
