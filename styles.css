@@ -152,6 +152,10 @@ nav a:hover {
   background-color: #e8f4f8;
 }
 
+.cta h2 {
+  margin-bottom: 20px;
+}
+
 .cta a {
   background-color: #0077b6;
   color: white;
@@ -270,7 +274,4 @@ footer {
   }
   
   .section {
-    border-bottom: 1px solid #ccc;
-    page-break-inside: avoid;
-  }
-}
+    border-bottom: 1px solid #ccc
